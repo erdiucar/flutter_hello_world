@@ -12,12 +12,10 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.cyan[50],
         appBar: AppBar(
           title: Center(child: Text("Hello World")),
-          backgroundColor: Colors.cyan,
         ),
         floatingActionButton: FloatingActionButton(
           onPressed: printHelloWorld,
           child: Icon(Icons.print),
-          backgroundColor: Colors.cyan,
         ),
       ),
     );
